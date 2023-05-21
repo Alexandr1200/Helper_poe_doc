@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw2"
+version = "0.1.0"
+description = "Home Work 2"
+authors = ["Oleksandr <chiha1200@email.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
